@@ -1,0 +1,119 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Lincong Pan": {
+      "orcid": "0009-0006-0584-9355",
+      "affiliations": [
+        {
+          "name": "School of Precision Instruments and Optoelectronics Engineering, Tianjin University"
+        }
+      ]
+    },
+    "Kun Wang": {
+      "orcid": "0000-0002-9365-5107"
+    },
+    "Lichao Xu": {},
+    "Xinwei Sun": {},
+    "Weibo Yi": {},
+    "Minpeng Xu": {},
+    "Dong Ming": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.7910/DVN/251NOW",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1088/1741-2552/ad0a01",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000291",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000291",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "STI 2030-Major Projects",
+      "award_number": "2022ZD0208900"
+    },
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "62122059"
+    },
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "62206198"
+    },
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "81925020"
+    },
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "62006014"
+    },
+    {
+      "funder_name": "Introduce Innovative Teams of 2021 'New High School 20 Items' Project",
+      "award_number": "2021GXRC071"
+    }
+  ],
+  "title": "Pan2023",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yaml"
+  ],
+  "description": "A cross-session motor imagery EEG dataset from 14 healthy participants who performed cued left- versus right-hand motor imagery on two separate days. EEG was recorded from 28 channels at 250 Hz. The dataset supports research on cross-session decoding and brain-computer interface (BCI) development.",
+  "methods_description": "EEG was recorded with a Neuroscan SynAmps2 amplifier (28 channels, 10-10 montage, nose reference, 250 Hz sampling). Each session had four blocks of 30 trials (15 left, 15 right, random order). Each 7 s trial had a 1 s 'Ready' cue, a 4 s motor imagery period with a left- or right-handed rowing game animation and sound, and a 2 s rest.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "Motor imagery"
+    },
+    {
+      "term": "cross-session"
+    },
+    {
+      "term": "left hand"
+    },
+    {
+      "term": "right hand"
+    }
+  ],
+  "source_hash": "b42ab7085c9a7bfe141d2ae1f56bd534e3a7af22d0772ffc540ac5f257601981"
+}
