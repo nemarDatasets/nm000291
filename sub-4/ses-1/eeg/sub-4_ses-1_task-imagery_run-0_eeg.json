@@ -1,0 +1,40 @@
+{
+	"TaskName": "imagery",
+	"Manufacturer": "Compumedics Neuroscan",
+	"PowerLineFrequency": 50.0,
+	"SamplingFrequency": 250.0,
+	"SoftwareFilters": "n/a",
+	"RecordingDuration": 839.996,
+	"RecordingType": "continuous",
+	"EEGReference": "nose",
+	"EEGGround": "forehead",
+	"EEGPlacementScheme": "10-10 system",
+	"EEGChannelCount": 28,
+	"EOGChannelCount": 0,
+	"ECGChannelCount": 0,
+	"EMGChannelCount": 0,
+	"TriggerChannelCount": 0,
+	"ManufacturersModelName": "Neuroscan SynAmps2",
+	"SoftwareVersions": "n/a",
+	"HardwareFilters": {
+		"HardwareFilter": {
+			"bandpass": [
+				0.01,
+				200.0
+			],
+			"notch": 50.0
+		}
+	},
+	"TaskDescription": "Cued left- vs right-hand motor imagery on two separate days. Each session has four blocks of 30 trials (15 left, 15 right, random order) with 5 min breaks; each 7 s trial has a 1 s 'Ready' preparation (0.25 s beep), a 4 s task period showing a left- or right-handed rowing game animation with sound, then a 2 s rest. Released as one file per session without block boundaries. Trial duration: 4.0s.",
+	"Instructions": "n/a",
+	"CogAtlasID": "https://www.cognitiveatlas.org/task/id/trm_4c8a834779883/",
+	"InstitutionName": "Tianjin University",
+	"InstitutionAddress": "CN",
+	"InstitutionalDepartmentName": "School of Precision Instruments and Optoelectronics Engineering",
+	"CapManufacturer": "n/a",
+	"CapManufacturersModelName": "n/a",
+	"SubjectArtefactDescription": "n/a",
+	"DeviceSerialNumber": "n/a",
+	"Description": "Cross-session motor imagery EEG dataset from 14 subjects performing cued left- vs right-hand motor imagery across two sessions.",
+	"MISCChannelCount": 0
+}

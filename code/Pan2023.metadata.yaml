@@ -1,0 +1,133 @@
+_dataset:
+  class: Pan2023
+  code: Pan2023
+  doi: 10.7910/DVN/251NOW
+  interval:
+  - 0
+  - 3.996
+  n_subjects: 14
+  paradigm: imagery
+acquisition:
+  channel_types:
+    eeg: 28
+  filters:
+    bandpass:
+    - 0.01
+    - 200.0
+    notch: 50.0
+  ground: forehead
+  hardware: Neuroscan SynAmps2
+  line_freq: 50.0
+  montage: 10-10
+  reference: nose
+  sampling_rate: 250.0
+  sensors:
+  - FC5
+  - FC3
+  - FC1
+  - FCz
+  - FC2
+  - FC4
+  - FC6
+  - C5
+  - C3
+  - C1
+  - Cz
+  - C2
+  - C4
+  - C6
+  - CP5
+  - CP3
+  - CP1
+  - CPz
+  - CP2
+  - CP4
+  - CP6
+  - P5
+  - P3
+  - P1
+  - Pz
+  - P2
+  - P4
+  - P6
+documentation:
+  associated_paper_doi: 10.1088/1741-2552/ad0a01
+  country: CN
+  data_url: https://doi.org/10.7910/DVN/251NOW
+  description: Cross-session motor imagery EEG dataset from 14 subjects performing cued left- vs right-hand motor imagery
+    across two sessions.
+  doi: 10.7910/DVN/251NOW
+  ethics_approval:
+  - Ethics committee of Tianjin University (TJUE-2021-062)
+  funding:
+  - STI 2030-Major Projects 2022ZD0208900
+  - National Natural Science Foundation of China 62122059
+  - National Natural Science Foundation of China 62206198
+  - National Natural Science Foundation of China 81925020
+  - National Natural Science Foundation of China 62006014
+  - Introduce Innovative Teams of 2021 'New High School 20 Items' Project 2021GXRC071
+  institution: Tianjin University
+  institution_department: School of Precision Instruments and Optoelectronics Engineering
+  investigators:
+  - Lincong Pan
+  - Kun Wang
+  - Lichao Xu
+  - Xinwei Sun
+  - Weibo Yi
+  - Minpeng Xu
+  - Dong Ming
+  keywords:
+  - motor imagery
+  - cross-session
+  - BCI
+  - brain-computer interface
+  - EEG
+  - left hand
+  - right hand
+  license: CC0-1.0
+  publication_year: 2023
+  repository: Harvard Dataverse
+experiment:
+  class_labels:
+  - left_hand
+  - right_hand
+  events:
+    left_hand: 1
+    right_hand: 2
+  feedback_type: none
+  mode: offline
+  n_classes: 2
+  paradigm: imagery
+  stimulus_modalities:
+  - visual
+  - auditory
+  stimulus_type: visual
+  study_design: Cued left- vs right-hand motor imagery on two separate days. Each session has four blocks of 30 trials (15
+    left, 15 right, random order) with 5 min breaks; each 7 s trial has a 1 s 'Ready' preparation (0.25 s beep), a 4 s task
+    period showing a left- or right-handed rowing game animation with sound, then a 2 s rest. Released as one file per session
+    without block boundaries.
+  synchronicity: cue-based
+  trial_duration: 4.0
+  trials_per_class:
+    left_hand: 60
+    right_hand: 60
+file_format: MAT (v7.3/HDF5)
+participants:
+  age_max: 25
+  age_min: 22
+  gender:
+    female: 5
+    male: 9
+  handedness:
+    left: 2
+    right: 12
+  health_status: healthy
+  n_subjects: 14
+  species: homo sapiens
+runs_per_session: 1
+sessions_per_subject: 2
+tags:
+  modality:
+  - Motor
+  type:
+  - Motor Imagery
