@@ -1,5 +1,5 @@
 {
-    "Name": "Pan2023",
+    "Name": "Pan2023: Cross-session motor imagery dataset from Pan et al. 2023",
     "BIDSVersion": "1.9.0",
     "HEDVersion": "8.4.0",
     "DatasetType": "derivative",
