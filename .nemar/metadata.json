@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Pan2023: Cross-session motor imagery dataset from Pan et al. 2023",
-  "description": "A cross-session motor imagery EEG dataset from 14 healthy participants who performed cued left- versus right-hand motor imagery on two separate days. EEG was recorded from 28 channels at 250 Hz, with 120 trials per session (60 per class). The dataset supports research on brain-computer interface decoding and on cross-session variability in motor imagery signals. This version is a BIDS-formatted derivative produced with MOABB.",
-  "methods_description": "EEG was recorded with a Neuroscan SynAmps2 amplifier from 28 channels in a 10-10 montage at 250 Hz, with a nose reference and a forehead ground. Each session had four blocks of 30 trials. Each 7 s trial consisted of a 1 s ready cue with a beep, a 4 s task period showing a left- or right-handed rowing animation with sound, and a 2 s rest.",
+  "description": "A cross-session motor imagery EEG dataset from 14 healthy participants who performed cued left- versus right-hand motor imagery on two separate days. EEG was recorded from 28 channels at 250 Hz, with 120 trials per session (60 per class). The dataset supports research on brain-computer interface decoding and cross-session generalization.",
+  "methods_description": "EEG was recorded with a Neuroscan SynAmps2 amplifier from 28 channels in a 10-10 montage at 250 Hz, with a nose reference and forehead ground. Each session had four blocks of 30 trials. Each 7 s trial consisted of a 1 s preparation, a 4 s motor imagery period guided by a left- or right-handed rowing game animation with sound, and a 2 s rest.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -33,9 +33,13 @@
     },
     {
       "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "BCI"
+    },
+    {
+      "term": "brain-computer interface"
     },
     {
       "term": "cross-session"
@@ -56,7 +60,7 @@
     {
       "identifier": "10.1088/1741-2552/ad0a01",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000291",
@@ -110,6 +114,9 @@
   "modalities": [
     "eeg"
   ],
+  "sizes": [
+    "315 MB (29 files)"
+  ],
   "formats": [
     ".edf",
     ".json",
@@ -117,8 +124,5 @@
     ".yaml",
     ".yml"
   ],
-  "sizes": [
-    "315 MB (29 files)"
-  ],
-  "source_hash": "4df4ea529317b7e1dc2e679e64b73cf2d03890d7b8343223793c351a167171c6"
+  "source_hash": "74b9dd01ee68f7e19d62dab5818f70c96101cfd4bfe35b180a557b101ebe1dce"
 }
