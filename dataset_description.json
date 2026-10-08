@@ -1,56 +1,60 @@
 {
-    "Name": "Pan2023: Cross-session motor imagery dataset from Pan et al. 2023",
-    "BIDSVersion": "1.9.0",
-    "HEDVersion": "8.4.0",
-    "DatasetType": "derivative",
-    "License": "CC0-1.0",
-    "Authors": [
-        "Lincong Pan",
-        "Kun Wang",
-        "Lichao Xu",
-        "Xinwei Sun",
-        "Weibo Yi",
-        "Minpeng Xu",
-        "Dong Ming"
-    ],
-    "Funding": [
-        "STI 2030-Major Projects 2022ZD0208900",
-        "National Natural Science Foundation of China 62122059",
-        "National Natural Science Foundation of China 62206198",
-        "National Natural Science Foundation of China 81925020",
-        "National Natural Science Foundation of China 62006014",
-        "Introduce Innovative Teams of 2021 'New High School 20 Items' Project 2021GXRC071"
-    ],
-    "EthicsApprovals": [
-        "Approved by the Ethics Committee of Tianjin University (protocol TJUE-2021-062). The study was performed in accordance with the Declaration of Helsinki, and written informed consent was obtained from all participants (Pan et al. 2023, J. Neural Eng., DOI 10.1088/1741-2552/ad0a01)."
-    ],
-    "ReferencesAndLinks": [
-        "https://doi.org/10.7910/DVN/251NOW",
-        "10.1088/1741-2552/ad0a01"
-    ],
-    "Keywords": [
-        "motor imagery",
-        "cross-session",
-        "BCI",
-        "brain-computer interface",
-        "EEG",
-        "left hand",
-        "right hand"
-    ],
-    "DatasetDOI": "doi:10.7910/DVN/251NOW",
-    "GeneratedBy": [
-        {
-            "CodeURL": "https://github.com/NeuroTechX/moabb",
-            "Name": "moabb",
-            "Description": "Mother of All BCI Benchmarks",
-            "Version": "1.8.0dev0"
-        }
-    ],
-    "SourceDatasets": [
-        {
-            "DOI": "10.7910/DVN/251NOW",
-            "URL": "https://doi.org/10.7910/DVN/251NOW"
-        }
-    ],
-    "PublicationYear": 2023
+  "Name": "Pan2023: Cross-session motor imagery dataset from Pan et al. 2023",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC0-1.0",
+  "Authors": [
+    "Lincong Pan",
+    "Kun Wang",
+    "Lichao Xu",
+    "Xinwei Sun",
+    "Weibo Yi",
+    "Minpeng Xu",
+    "Dong Ming"
+  ],
+  "Funding": [
+    "STI 2030-Major Projects 2022ZD0208900",
+    "National Natural Science Foundation of China 62122059",
+    "National Natural Science Foundation of China 62206198",
+    "National Natural Science Foundation of China 81925020",
+    "National Natural Science Foundation of China 62006014",
+    "Introduce Innovative Teams of 2021 'New High School 20 Items' Project 2021GXRC071"
+  ],
+  "EthicsApprovals": [
+    "Approved by the Ethics Committee of Tianjin University (protocol TJUE-2021-062). The study was performed in accordance with the Declaration of Helsinki, and written informed consent was obtained from all participants (Pan et al. 2023, J. Neural Eng., DOI 10.1088/1741-2552/ad0a01)."
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.7910/DVN/251NOW",
+    "10.1088/1741-2552/ad0a01"
+  ],
+  "Keywords": [
+    "motor imagery",
+    "cross-session",
+    "BCI",
+    "brain-computer interface",
+    "EEG",
+    "left hand",
+    "right hand"
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000291",
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.8.0dev0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.7910/DVN/251NOW",
+      "URL": "https://doi.org/10.7910/DVN/251NOW"
+    },
+    {
+      "DOI": "doi:10.7910/DVN/251NOW"
+    }
+  ],
+  "PublicationYear": 2023,
+  "Version": "1.0.0"
 }
